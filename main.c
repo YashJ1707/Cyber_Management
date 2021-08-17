@@ -39,9 +39,9 @@ recharge:
     scanf("%d", &flag);
     if (flag == 1)
     {
-        cost = time * flag + time * 10;
+        cost = time * 15;
     }
-    printf("Your total bill amount is %d\nDo you want to continue\n1.Yes\t0.Go back\n", time);
+    printf("Your total bill amount is %d\nDo you want to continue\n1.Yes\t0.Go back\n", cost);
     scanf("%d", &flag);
     if (flag == 0)
         goto recharge;
@@ -149,7 +149,7 @@ pass:
         goto pass;
     }
 
-    printf("Your account is created please login to continue\n");
+    printf("\nYour account is created please login to continue\n");
     login_data(customer_data);
     customers++;
 }
