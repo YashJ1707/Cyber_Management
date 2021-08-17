@@ -87,7 +87,7 @@ again:
     {
         goto again;
     }
-    printf("YOU HAVE BEEN LOGGED OUT!\n THANKYOU FOR COMING");
+    printf("YOU HAVE BEEN LOGGED OUT!\n THANKYOU FOR COMING\n");
     goto menu;
     return 0;
 }
