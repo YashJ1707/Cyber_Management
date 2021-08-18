@@ -75,6 +75,7 @@ menu:
     printf("You are logged in\n");
 again:
     time = time_remainging();
+    time *= 60;
     do
     {
         printf("\033[A%d minutes remainging\n", time);
