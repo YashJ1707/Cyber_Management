@@ -83,7 +83,7 @@ again:
     time *= 60;
     do
     {
-        printf("\t\t\t\t\t\t\033[A%d minutes remainging\n", time);
+        printf("\033[A\t\t\t\t\t\t%d minutes remainging\n", time);
         setTimeout(60000);
         time--;
     } while (time >= 0);
