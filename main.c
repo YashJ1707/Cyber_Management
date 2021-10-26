@@ -42,6 +42,7 @@ recharge:
         cost = time * 15;
     }
     printf("\n\t\t\t\t\t\t*YOUR TOTAL BILL :%d\n\t\t\t\t\t*DO YOU WANT TO CONTINUE:\n\t\t\t\t\t\t1.YES\t0.GO BACK :", cost);
+    printf("hello");
     scanf("%d", &flag);
     printf("\t\t\t\t\t========================================\n");
     printf("\n");
